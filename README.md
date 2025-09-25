@@ -69,7 +69,8 @@ A console-based Java application to manage students, instructors, courses, enrol
    * `java -version`
    * `javac -version`
 
-> **Screenshot:** Add a screenshot of `java -version` output and of Environment Variables window.
+> **Screenshot:**
+> (https://drive.google.com/file/d/1y1nhPo03vCucaQ8Hg6zQyDWh_ZdLBrVw/view?usp=sharing).
 
 ---
 
@@ -80,7 +81,7 @@ A console-based Java application to manage students, instructors, courses, enrol
 3. Create packages: `edu.ccrm.cli`, `edu.ccrm.domain`, `edu.ccrm.service`, `edu.ccrm.io`, `edu.ccrm.config`, `edu.ccrm.util`.
 4. Run configurations: Run As → Java Application. Create a configuration that specifies main class `edu.ccrm.cli.AppMain`.
 
-> **Screenshot placeholders:** New Project dialog, Package Explorer with packages, Run Config dialog.
+
 
 ---
 
@@ -276,7 +277,6 @@ try {
 }
 ```
 
-* **Assertions:** Add `assert student.getId() != null;` where invariants are expected. Note: run `java -ea` to enable assertions.
 
 ---
 
@@ -317,6 +317,7 @@ java -cp out edu.ccrm.cli.AppMain
 * Enable assertions: `java -ea -cp out edu.ccrm.cli.AppMain`
 
 ---
-
+## 14) Demo Video
+https://drive.google.com/file/d/1CG09El7ObCK6LD-le5d2rfwQajq9LCPx/view?usp=sharing
 *END OF README*
 
